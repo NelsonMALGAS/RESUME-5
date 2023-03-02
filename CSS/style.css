@@ -47,4 +47,20 @@ img{
     border-style: dotted;
     /*Declaration to change my border width,border color &border style*/
 }
+.heading{ position: static}
+   
+.menu6{
+    position: relative;
+    left:px;
+}
+.artcle{
+         display: flex;
+         position: absolute;
+         left: 10px;
+
+}
+.cntcts{
+    
+}
+
 
