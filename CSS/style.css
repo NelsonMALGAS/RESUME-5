@@ -13,6 +13,8 @@ h4,h5,h6{color: brown;}
 body{
      background-color: lightblue;
      padding-left: 30px;
+     display: flexbox;
+     justify-content: space-between;
      /*declaration to my body background color and padding-left */
      
 }
@@ -27,6 +29,7 @@ menu{
     margin-bottom:-1%;
     margin-left: -60px;
     padding-top: 15px;
+    position: sticky;
     
    /*declaration to change my menu background color,size,font style box sizing,all margins and padding top*/ 
     
@@ -37,30 +40,51 @@ header{
     margin-left: -60px;
     margin-top: -10px;
     margin-right: -10px;
-     /*declaration to change my menu background color & all margins*/ 
-    
+     /*declaration to change my menu background color & all margins*/
 }
-article{background-color: lightblue;}/*Declaration to change my background color to blue*/
+    
+
+article{background-color: lightblue;/*Declaration to change my background color to blue*/
+         margin-top: 0px;
+         margin-right: 500px;
+}
 img{
     border-width: 10px;
     border-color:lightgray;
     border-style: dotted;
-    /*Declaration to change my border width,border color &border style*/
+    /*Declaration to change my border width,border color & border style*/
 }
-.heading{ position: static}
+.heading{align-content: baseline
+            position static
+            /*Declaration to align my heading class and make its position static*/
+            
+        }
    
 .menu6{
     position: relative;
-    left:px;
+    left: 1050px;
+    border: 2px;
+    padding: 10px;
+    flex: 1;
+    /*Declaration to put my menu class in a relative position on the right side of my page using left, setting the border to 2px and padding to 10px*/
 }
 .artcle{
-         display: flex;
-         position: absolute;
-         left: 10px;
+    position: static;
+    left: 10px;
+    top:100px;
+    padding-right: 5px;
+    flex: 2;
+    margin-top: -150px;
+    margin-right: 5px;
+    box-sizing:fill;    
+    border-right: -50px;
+     /*Declaration to put my artcle class in a static position on the same position it was but move it to the top a little , setting the border-right -50px and padding to 10px*/  
+}
+center{background-color: burlywood;}
 
-}
-.cntcts{
+
+
     
-}
+
 
 
