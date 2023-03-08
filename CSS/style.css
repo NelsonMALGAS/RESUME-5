@@ -15,6 +15,7 @@ body{
      padding-left: 30px;
      display: flexbox;
      justify-content: space-between;
+     background-image: url(Image/ProfessionalPhoto.jpeg);
      /*declaration to my body background color and padding-left */
      
 }
@@ -55,6 +56,8 @@ img{
     border-width: 10px;
     border-color:lightgray;
     border-style: dotted;
+    background-size: auto;
+    position:relative;
     /*Declaration to change my border width,border color & border style*/
 }
 .heading{align-content: baseline
@@ -88,11 +91,16 @@ center{background-color: burlywood;}
     position:center ;
     text-align: center;
 }
+.WhatsApp_images{position: absolute;}
     
 a:link{ color:#191970}
 a:visited{color: #ff00ff;}
 a:hover{color: #66cdaa;}
 a:active{color: #8a2be2;}
+img{width: 1920px;
+    height: 828px;
+}
+
 
 
 
