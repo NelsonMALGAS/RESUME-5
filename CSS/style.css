@@ -15,7 +15,6 @@ body{
      padding-left: 30px;
      display: flexbox;
      justify-content: space-between;
-     background-image: url(Image/ProfessionalPhoto.jpeg);
      /*declaration to my body background color and padding-left */
      
 }
@@ -43,9 +42,11 @@ header{
     margin-right: -50px;
     position:center;
     text-align: center;
-    background-image: url(https://pixabay.com/photos/milky-way-stars-night-sky-2695569/);
+    background-image: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) ;
+    background-size: cover;
+    background-repeat: repeat;
 
-     /*declaration to change my menu background color & all margins and center*/
+     /*declaration to change my menu background color & all margins and center,change of background to image*/
 }
     
 
@@ -61,7 +62,7 @@ img{
     position:relative;
     /*Declaration to change my border width,border color & border style*/
 }
-.heading{align-content: baseline
+.heading{/*align-content: baseline
             position static
             /*Declaration to align my heading class and make its position static*/
             
@@ -98,9 +99,7 @@ a:link{ color:#191970}
 a:visited{color: #ff00ff;}
 a:hover{color: #66cdaa;}
 a:active{color: #8a2be2;}
-img{width: 1920px;
-    height: 828px;
-}
+
 
 
 
