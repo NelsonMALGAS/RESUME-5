@@ -37,10 +37,11 @@ menu{
 header{
     background-color: yellowgreen;
     margin-bottom: -1.8%;
-    margin-left: -60px;
+    margin-left: -70px;
     margin-top: -10px;
-    margin-right: -10px;
-    position: center;
+    margin-right: -50px;
+    position:center;
+
      /*declaration to change my menu background color & all margins and center*/
 }
     
@@ -82,9 +83,11 @@ img{
      /*Declaration to put my artcle class in a static position on the same position it was but move it to the top a little , setting the border-right -50px and padding to 10px*/  
 }
 center{background-color: burlywood;}
-.profile{position: center;}
-html{cursor:;}
-
+.profile{position:center;}
+a:link{ color:#191970}
+a:visited{color: #ff00ff;}
+a:hover{color: #66cdaa;}
+a:active{color: #8a2be2;}
 
 
 
