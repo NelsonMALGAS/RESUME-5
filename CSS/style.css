@@ -99,6 +99,7 @@ a:link{ color:#191970}
 a:visited{color: #ff00ff;}
 a:hover{color: #66cdaa;}
 a:active{color: #8a2be2;}
+html{display: flex;}
 
 
 
