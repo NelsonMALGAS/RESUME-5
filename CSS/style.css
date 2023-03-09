@@ -94,12 +94,14 @@ center{background-color: burlywood;}
     text-align: center;
 }
 .WhatsApp_images{position: absolute;}
-    
+   /*Declaritions for links when hovering around them they change colors*/ 
 a:link{ color:#191970}
 a:visited{color: #ff00ff;}
 a:hover{color: #66cdaa;}
 a:active{color: #8a2be2;}
-html{display: flex;}
+html{display: flex;
+    flex-direction: column;
+}
 
 
 
