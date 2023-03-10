@@ -13,7 +13,6 @@ h4,h5,h6{color: brown;}
 body{
      background-color: lightblue;
      padding-left: 30px;
-     display: flexbox;
      justify-content: space-between;
      /*declaration to my body background color and padding-left */
      
@@ -24,7 +23,7 @@ menu{
     background-color: contain;
     font-style: italic;
     box-sizing: content-box;
-    margin-right: 74%;
+    margin-right: 64%;
     margin-top:-30px;
     margin-bottom:-1%;
     margin-left: -60px;
@@ -56,7 +55,7 @@ article{background-color: lightblue;/*Declaration to change my background color 
 }
 img{
     border-width: 10px;
-    border-color:lightgray;
+    border-color:#000000;
     border-style: dotted;
     background-size: auto;
     position:relative;
@@ -74,6 +73,7 @@ img{
     border: 2px;
     padding: 10px;
     flex: 1;
+    background-size: cover;
     /*Declaration to put my menu class in a relative position on the right side of my page using left, setting the border to 2px and padding to 10px*/
 }
 .artcle{

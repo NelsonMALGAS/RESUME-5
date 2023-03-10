@@ -1,0 +1,53 @@
+.grid-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "heading heading heading heading"
+    "artcle artcle artcle nav-bar"    /*Declaration of how my layout should be*/
+    "artcle artcle artcle nav-bar"
+    "artcle footer footer footer"
+   /*My grid container code*/ 
+
+    
+}
+.grid-item1-{
+    
+    grid-column: 1/4;
+    grid-area:nav-bar ;
+    background-size:cover
+ /*My grid item 1*/
+}
+.grid-item-2{
+    grid-area: heading;
+    grid-column: 1/4;
+/*My grid item 1*/
+}
+.grid-item-3{
+    grid-area: artcle;
+    grid-column: 1/4;
+/*My grid item 1*/
+}
+.grid-item-4{
+    grid-area: footer;
+    grid-column: 1/4;
+/*My grid item 1*/
+}
+body{
+    contain: content;
+    background-size: cover;
+}/*Declaration to contain the content in my body*/
+
+/*code for mobile devices smaller than 768px*/
+body{background-color: #00d5ff;}
+@media screen and(max-width:600px) {
+   body{background-color: #faebd7;}    
+}
+/*code for tablets smaller than 1024px*/
+@media screen and (max-width:1024px){
+    body{background-color: #00ffff;}
+}
+/*code for desktops/laptops smaller than  1198px*/
+@media screen and(max-width:1215px){
+    body{background-color: #d2691e;}
+    
+}
