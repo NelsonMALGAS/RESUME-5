@@ -40,14 +40,20 @@ body{
 /*code for mobile devices smaller than 768px*/
 body{background-color: #00d5ff;}
 @media screen and(max-width:600px) {
-   body{background-color: #faebd7;}    
+   body{background-color: #faebd7;
+    font-size:small ;
+}    
 }
 /*code for tablets smaller than 1024px*/
 @media screen and (max-width:1024px){
-    body{background-color: #00ffff;}
+    body{background-color: #00ffff;
+        font-size: medium;
+    }
 }
 /*code for desktops/laptops smaller than  1198px*/
 @media screen and(max-width:1215px){
-    body{background-color: #d2691e;}
+    body{background-color: #d2691e;
+        font-size: larger;
+    }
     
 }
